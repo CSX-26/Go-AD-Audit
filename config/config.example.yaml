@@ -1,0 +1,11 @@
+ldap:
+  host: 192.168.1.10
+  port: 636
+  username: "audit-user"
+  password: "StrongPasswordHere"
+
+audit:
+  inactive_days: 90
+
+report:
+  output: ../outputs/ad-audit-report.html
